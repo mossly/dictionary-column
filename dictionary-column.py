@@ -15,4 +15,4 @@ df = pd.read_csv("input.csv")
 
 df = newColumnFromDictionary(df, 'newCol', 'refCol', keys, values)
 
-df.to_csv("input.csv", index=False)
+df.to_csv("output.csv", index=False)
